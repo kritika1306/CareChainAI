@@ -1,0 +1,14 @@
+{
+  "name": "carechain-contracts",
+  "version": "1.0.0",
+  "description": "Smart contracts for CareChain nurse license verification",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js --network localhost"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0"
+  }
+}
